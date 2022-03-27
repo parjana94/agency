@@ -492,18 +492,12 @@
   .brands .brside::after {
     top: 200px;
   }
-  .about .about-cont .img {
-    width: 100%;
-  }
-  .about .about-cont .img img {
-    width: 100%;
-  }
-  .about .about-cont .txt {
+  .about .txt {
     width: 100%;
     padding-left: 0px;
     text-align: center;
   }
-  .about .about-cont .txt h2 {
+  .about .txt h2 {
     font-size: 2rem;
   }
 }
