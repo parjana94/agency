@@ -1,0 +1,117 @@
+.header{
+    background-color: $headbg;
+    @include flexcenter(column);
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+        ul{
+            display: flex;
+            gap: 120px;
+            li{
+                a{
+                    color: white;
+                    font-family: $font;
+                    
+                }
+            }
+        }
+        .contact{
+            border: 1px solid #8E8F99;
+            padding: 18px 40px 10px 40px;
+            border-radius: 10px;
+            a{
+                text-transform: uppercase;
+                color: white;
+                font-family: $font;
+            }
+        }
+        .burger{
+            border: 1px solid rgba(255, 255, 255, 0.29);
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: none;
+            cursor: 375;
+            .fa-bars{
+                color: white;
+            }
+        }
+    }
+    .modern-studio{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 130px;
+        .txt{
+            width: 45%;
+            background-image: url(../images/Star.svg);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: 230px;
+            h2{
+                color: $orange;
+                font-family: $font;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+            h1{
+                font-size: 4.5rem;
+                color: white;
+                font-family: $font;
+                text-transform: capitalize;
+                letter-spacing: -2.00016px;
+                padding-top: 70px;
+                padding-bottom: 35px;
+                line-height: 80px;
+                position: relative;
+            }
+            p{
+                color: #A0A1AA;
+                font-family: $font;
+                line-height: 32px;
+                padding-bottom: 50px;
+            }
+        }
+        .links{
+            display: flex;
+            .work{
+                width: 155px;
+                height: 48px;
+                background-color: $orange;
+                @include flexcenter(column);
+                margin-right: 45px;
+                a{
+                    color: white;
+                    font-family: $font;
+                }
+            }
+            a{
+                color: white;
+                font-family: $font;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+.div-prof{
+    background-color: $headbg;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    .profile{
+        @include flexcenter(row);
+        justify-content: flex-start;
+        .txt{
+            padding-left: 15px;
+            font-family: $font;
+            p{
+                padding-bottom: 10px;
+                color: #FFFFFF;
+                opacity: 64%;
+            }
+            span{
+                color: white;
+            }
+        }
+    }
+}

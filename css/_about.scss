@@ -1,0 +1,46 @@
+.about{
+    background-color: $rose;
+    @include flexcenter(row);
+    padding-top: 60px;
+    .about-cont{
+        @include flexcenter(row);
+        justify-content: space-between;
+        .txt{
+            padding-left: 130px;
+            h3{
+                color: $orange;
+                font-size:16px; letter-spacing: 3px; line-height: 32px;
+                text-transform: uppercase;
+                font-family: $font;
+                padding-bottom: 50px;
+            }
+            h2{
+                font-size:3.5rem; letter-spacing: -1.14304px;
+                font-family: $font;
+                color: $yavis;
+                padding-bottom: 40px;
+            }
+            h4{
+                font-size: 1.25rem;
+                color: $yavis;
+                font-family: $font;
+                padding-bottom: 30px;
+            }
+            p{
+                font-family: $font;
+                color: $yavis;
+                opacity: 64%;
+                line-height: 32px;
+                padding-bottom: 50px;
+            }
+            a{
+                font-family: $font;
+                color: $yavis;
+                text-transform: uppercase;
+                background-color: white;
+                padding: 25px 35px 15px 35px;
+                box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+            }
+        }
+    }
+}
