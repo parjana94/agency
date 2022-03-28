@@ -17,15 +17,13 @@
                 }
             }
         }
-        .contact{
-            border: 1px solid #8E8F99;
-            padding: 18px 40px 10px 40px;
-            border-radius: 10px;
-            a{
+        .contact-btn{
                 text-transform: uppercase;
                 color: white;
                 font-family: $font;
-            }
+                border: 1px solid #8E8F99;
+                padding: 18px 40px 10px 40px;
+                border-radius: 10px;
         }
         .burger{
             border: 1px solid rgba(255, 255, 255, 0.29);

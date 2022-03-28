@@ -4,3 +4,23 @@
     align-items: center;
     flex-direction: $direction;
 }
+@mixin name {
+    color: $orange;
+    font-size:16px; letter-spacing: 3px; line-height: 32px;
+    text-transform: uppercase;
+    font-family: $font;
+    padding-bottom: 50px;
+}
+@mixin headfont {
+    font-size:3.5rem; letter-spacing: -1.14304px;
+    font-family: $font;
+    color: $yavis;
+    padding-bottom: 40px;
+}
+@mixin mainp {
+    font-family: $font;
+    color: $yavis;
+    opacity: 64%;
+    line-height: 32px;
+    padding-bottom: 50px;
+}

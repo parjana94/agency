@@ -8,17 +8,11 @@
         .txt{
             padding-left: 130px;
             h3{
-                color: $orange;
-                font-size:16px; letter-spacing: 3px; line-height: 32px;
-                text-transform: uppercase;
-                font-family: $font;
-                padding-bottom: 50px;
+                @include name;
             }
             h2{
-                font-size:3.5rem; letter-spacing: -1.14304px;
-                font-family: $font;
-                color: $yavis;
-                padding-bottom: 40px;
+                @include headfont;
+                line-height: 64px;
             }
             h4{
                 font-size: 1.25rem;
@@ -27,11 +21,7 @@
                 padding-bottom: 30px;
             }
             p{
-                font-family: $font;
-                color: $yavis;
-                opacity: 64%;
-                line-height: 32px;
-                padding-bottom: 50px;
+                @include mainp;
             }
             a{
                 font-family: $font;

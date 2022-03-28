@@ -1,0 +1,59 @@
+.work{
+    background-color: $rose;
+    @include flexcenter(row);
+    position: relative;
+    .work-cont{
+        display: flex;
+        .txt{
+            width: 40%;
+            h3{
+                @include name;
+            }
+            h2{
+                @include headfont;
+                font-size: 2.5rem;
+                line-height: 48px;
+            }
+            p{
+                @include mainp;
+                width: 110%;
+            }
+            a{
+                font-family: $font;
+                color: $yavis;
+            }
+        }
+        .numbers{
+            padding-left: 170px;
+            margin-top: 80px;
+            .box{
+                display: flex;
+                padding-bottom: 60px;
+                h2{
+                    font-size: 4.5rem;
+                    font-family: $font;
+                    color: $yavis;
+                }
+                p{
+                    font-size: 1rem;
+                    font-family: $font;
+                    color: $yavis;
+                    padding-left: 75px;
+                }
+            }
+            .first{
+                p{
+                    padding-left: 90px;
+                }
+            }
+        }
+    }
+    &::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #F3D1BF;
+        position: absolute;
+        bottom: 0;
+    }
+}
