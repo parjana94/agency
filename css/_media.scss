@@ -112,7 +112,7 @@
                 display: block;
             }
         }
-        .contact{
+        .contact-btn{
             display: none;
         }
     }
@@ -143,6 +143,17 @@
     .stat{
         .stat-cont{
             flex-direction: column;
+        }
+    }
+    .work{
+        .work-cont{
+            flex-direction: column;
+            .txt{
+                width: 100%;
+            }
+            .numbers{
+                padding-left: 0px;
+            }
         }
     }
 }
@@ -215,6 +226,15 @@
                    width: 80vw;
                }
            }
+        }
+    }
+    .work{
+        .work-cont{
+            .txt{
+                p{
+                    width: 360px;
+                }
+            }
         }
     }
 }

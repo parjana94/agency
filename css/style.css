@@ -470,6 +470,70 @@
   bottom: 0;
 }
 
+.video {
+  background-color: #FDF0E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 125px;
+}
+
+.video .video-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.video .video-cont .img {
+  width: 45%;
+  height: auto;
+  position: relative;
+}
+
+.video .video-cont .img .main-img {
+  width: 100%;
+}
+
+.video .video-cont .img .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.video .video-cont .img .triangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.video .video-cont .img .time {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 992px;
@@ -581,7 +645,7 @@
   .header .nav .burger {
     display: block;
   }
-  .header .contact {
+  .header .contact-btn {
     display: none;
   }
   .div-prof .profile {
@@ -609,6 +673,18 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .work .work-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .work .work-cont .txt {
+    width: 100%;
+  }
+  .work .work-cont .numbers {
+    padding-left: 0px;
   }
 }
 
@@ -677,6 +753,9 @@
 @media (max-width: 375px) {
   .about .about-cont .txt h2 {
     width: 80vw;
+  }
+  .work .work-cont .txt p {
+    width: 360px;
   }
 }
 /*# sourceMappingURL=style.css.map */
