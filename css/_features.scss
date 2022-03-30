@@ -1,0 +1,39 @@
+.features{
+    @include cont;
+    padding-top: 190px;
+    .features-cont{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .txt{
+            width: 400px;
+            h3{
+                @include name;
+            }
+            h2{
+                @include headfont;
+                line-height: 56px;
+                padding-bottom: 35px;
+            }
+            .txt-p{
+                @include mainp;
+                opacity: 1;
+                line-height: 32px;
+                padding-bottom: 10px;
+            }
+            .list{
+                .box{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 20px;
+                    p{
+                        opacity: 0.64;
+                        font-family: $font;
+                        color: #391400;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

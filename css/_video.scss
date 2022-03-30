@@ -34,5 +34,19 @@
                 left: 20px;
             }
         }
+        .txt{
+            width: 40%;
+            h3{
+                @include name;
+            }
+            h2{
+                @include headfont;
+                font-size: 2.5rem;
+                line-height: 48px;
+            }
+            p{
+                @include mainp;
+            }
+        }
     }
 }

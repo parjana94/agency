@@ -24,3 +24,7 @@
     line-height: 32px;
     padding-bottom: 50px;
 }
+@mixin cont{
+    background-color: $rose;
+    @include flexcenter(row);
+}
