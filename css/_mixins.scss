@@ -28,3 +28,8 @@
     background-color: $rose;
     @include flexcenter(row);
 }
+@mixin centerposition {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

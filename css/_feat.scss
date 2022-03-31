@@ -1,0 +1,76 @@
+.feat{
+    @include cont;
+    padding-top: 200px;
+    .feat-cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .txt{
+            h3{
+                @include name;
+            }
+            p{
+                font-size: 1.25rem;
+                width: 370px;
+                font-family: $font;
+                line-height: 32px;
+                color: $yavis;
+                padding-bottom: 50px;
+            }
+            a{
+                font-family: $font;
+                color: $yavis;
+            }
+        }
+        .right{
+            display: flex;
+            align-items: flex-end;
+            .prof{
+                background-color: white;
+                border: 1px solid #F3D1BF;
+                padding: 50px 100px 50px 50px;
+                h2{
+                    font-size: 1.5rem;
+                    font-family: $font;
+                    color: $yavis;
+                    padding-bottom: 25px;
+                    padding-top: 50px;
+                }
+                p{
+                    color: $yavis;
+                    opacity: 64%;
+                    font-family: $font;
+                    width: 240px;
+                    line-height: 32px;
+                }
+                .img{
+                    width: 80px;
+                    position: relative;
+                    .icon{
+                        position: absolute;
+                        @include centerposition;
+                    }
+                }
+            }
+            .acces{
+                padding: 70px 50px 50px 50px;
+                border: 1px solid #F3D1BF;
+                h2{
+                    font-size: 1.5rem;
+                    font-family: $font;
+                    color: $yavis;
+                    padding-bottom: 25px;
+                    padding-top: 50px;
+                    text-transform: capitalize;
+                }
+                p{
+                    color: $yavis;
+                    opacity: 64%;
+                    font-family: $font;
+                    width: 240px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+}
