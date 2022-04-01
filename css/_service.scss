@@ -1,0 +1,51 @@
+.service{
+    @include cont;
+    padding-top: 200px;
+    .service-cont{
+        display: flex;
+        gap: 120px;
+        .txt{
+            padding-top: 30px;
+            .top-txt{
+                h3{
+                    @include name;
+                }
+                h2{
+                    @include headfont;
+                    line-height: 64px;
+                }
+                p{
+                    @include mainp;
+                    opacity: 1;
+                }
+            }
+            .serv-prof{
+                display: flex;
+                gap: 20px;
+                .prof-img{
+                    background-color: #F7CB47;
+                    border-radius: 50%;
+                }
+                p{
+                    color: #391400;
+                    opacity: 64%;
+                }
+                h2{
+                    margin-top: 20px;
+                    font-family: $font;
+                    color: $yavis;
+                }
+            }
+            .service-link{
+                padding-top: 50px;
+                a{
+                    background-color: white;
+                    padding: 20px 45px 15px 45px;
+                    font-family: $font;
+                    color: $yavis;
+                    box-shadow: 0px 0px 10px -6px #000000;
+                }
+            }
+        }
+    }
+}
