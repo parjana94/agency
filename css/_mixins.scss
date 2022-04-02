@@ -16,6 +16,7 @@
     font-family: $font;
     color: $yavis;
     padding-bottom: 40px;
+    text-transform: capitalize;
 }
 @mixin mainp {
     font-family: $font;
@@ -29,6 +30,7 @@
     @include flexcenter(row);
 }
 @mixin centerposition {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

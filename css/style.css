@@ -1,5 +1,6 @@
 .container {
   width: 1170px;
+  font-family: "Epilogue", sans-serif;
 }
 
 .header {
@@ -298,6 +299,7 @@
   font-family: "Epilogue", sans-serif;
   color: #391400;
   padding-bottom: 40px;
+  text-transform: capitalize;
   line-height: 64px;
 }
 
@@ -414,6 +416,7 @@
   font-family: "Epilogue", sans-serif;
   color: #391400;
   padding-bottom: 40px;
+  text-transform: capitalize;
   font-size: 2.5rem;
   line-height: 48px;
 }
@@ -554,6 +557,7 @@
   font-family: "Epilogue", sans-serif;
   color: #391400;
   padding-bottom: 40px;
+  text-transform: capitalize;
   font-size: 2.5rem;
   line-height: 48px;
 }
@@ -616,6 +620,7 @@
   font-family: "Epilogue", sans-serif;
   color: #391400;
   padding-bottom: 40px;
+  text-transform: capitalize;
   line-height: 56px;
   padding-bottom: 35px;
 }
@@ -740,6 +745,7 @@
 
 .feat .feat-cont .right .prof .img .icon {
   position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -813,6 +819,7 @@
   font-family: "Epilogue", sans-serif;
   color: #391400;
   padding-bottom: 40px;
+  text-transform: capitalize;
   line-height: 64px;
 }
 
@@ -859,6 +866,98 @@
   color: #391400;
   -webkit-box-shadow: 0px 0px 10px -6px #000000;
           box-shadow: 0px 0px 10px -6px #000000;
+}
+
+.help {
+  background-color: #FDF0E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 140px;
+}
+
+.help .help-cont .help-head h3 {
+  color: #EF6D58;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-family: "Epilogue", sans-serif;
+  padding-bottom: 50px;
+}
+
+.help .help-cont .help-head h2 {
+  font-size: 3.5rem;
+  letter-spacing: -1.14304px;
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  width: 300px;
+  font-size: 2.5rem;
+  line-height: 48px;
+}
+
+.help .help-cont .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.help .help-cont .boxes .box {
+  border: 1px solid #F3D1BF;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 50px 0 60px 50px;
+}
+
+.help .help-cont .boxes .box .img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+.help .help-cont .boxes .box .img .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.help .help-cont .boxes .box .box-txt h2 {
+  font-family: "Epilogue", sans-serif;
+  line-height: 32px;
+  color: #391400;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 30px 0 20px 0;
+}
+
+.help .help-cont .boxes .box .box-txt p {
+  color: #391400;
+  opacity: 64%;
+  line-height: 32px;
+  padding-bottom: 40px;
+  min-width: 294px;
+}
+
+.help .help-cont .boxes .box .box-txt a {
+  color: #391400;
 }
 
 @media (max-width: 1200px) {
