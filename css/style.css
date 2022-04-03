@@ -1083,6 +1083,87 @@
   text-transform: uppercase;
 }
 
+.contact {
+  background-color: #FDF0E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #28293E;
+}
+
+.contact .contact-cont {
+  background-color: #FDF0E9;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px 50px 0px;
+  position: relative;
+}
+
+.contact .contact-cont .main-img {
+  height: 192px;
+  overflow: hidden;
+}
+
+.contact .contact-cont .star-img {
+  position: absolute;
+  top: -23%;
+  left: 2%;
+}
+
+.contact .contact-cont .girl {
+  position: absolute;
+  top: -15%;
+  right: 3%;
+}
+
+.contact .contact-cont .txt h3 {
+  color: #EF6D58;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-family: "Epilogue", sans-serif;
+  padding-bottom: 50px;
+  padding-bottom: 25px;
+}
+
+.contact .contact-cont .txt h2 {
+  font-size: 3.5rem;
+  letter-spacing: -1.14304px;
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  line-height: 32px;
+  width: 200px;
+}
+
+.contact .contact-cont .txt a {
+  padding: 25px 40px 15px 40px;
+  background-color: #EF6D58;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 992px;
@@ -1218,6 +1299,33 @@
   }
   .portfolio .portfolio-cont .boxes .none {
     display: none;
+  }
+  .contact .contact-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 80px;
+  }
+  .contact .contact-cont .star-img {
+    top: -10%;
+    left: 8%;
+  }
+  .contact .contact-cont .girl {
+    top: 58%;
+    left: 20%;
+  }
+  .contact .contact-cont .txt h2 {
+    width: 100%;
   }
 }
 
@@ -1451,6 +1559,9 @@
   .service .service-cont .serv-prof .prof-img {
     width: 100px;
     height: 70px;
+  }
+  .contact .contact-cont {
+    padding-left: 10px;
   }
 }
 

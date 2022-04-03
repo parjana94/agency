@@ -148,6 +148,30 @@
             }
         }
     }
+    .contact{
+        .contact-cont{
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding-left: 100px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            gap: 80px;
+            .star-img{
+                top: -10%;
+                left: 8%;
+            }
+            .girl{
+                top: 58%;
+                left: 20%;
+            }
+            .txt{
+                h2{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 768px){
     .container{
@@ -366,6 +390,11 @@
                     height: 70px;
                 }
             }
+        }
+    }
+    .contact{
+        .contact-cont{
+            padding-left: 10px;
         }
     }
 }

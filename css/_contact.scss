@@ -1,0 +1,46 @@
+.contact{
+    @include cont;
+    background-color: $headbg;
+    .contact-cont{
+        background-color: $rose;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0px 50px 0px;
+        position: relative;
+        .main-img{
+            height: 192px;
+            overflow: hidden;
+        }
+        .star-img{
+            position: absolute;
+            top: -23%;
+            left: 2%;
+        }
+        .girl{
+            position: absolute;
+            top: -15%;
+            right: 3%;
+        }
+        .txt{
+            h3{
+                @include name;
+                padding-bottom: 25px;
+            }
+            h2{
+                @include headfont;
+                font-size: 1.3rem;
+                line-height: 32px;
+                width: 200px;
+            }
+            a{
+                padding: 25px 40px 15px 40px;
+                background-color: $orange;
+                color: white;
+                text-transform: uppercase;
+                border-radius: 10px;
+            }
+        }
+    }
+}
