@@ -49,6 +49,15 @@
             }
         }
     }
+    .explore{
+        .explore-cont{
+            .boxes{
+                .box{
+                    flex: 1;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 992px){
     .container{
@@ -397,6 +406,18 @@
             padding-left: 10px;
         }
     }
+    .portfolio{
+        .portfolio-cont{
+           .portfolio-head{
+            .list{
+                display: none;
+            }
+            h2{
+                padding-bottom: 50px;
+            }
+           }
+        }
+    }
 }
 
 @media (max-width: 375px){
@@ -443,6 +464,16 @@
                 }
                 .acces{
                     padding-right: 65px;
+                }
+            }
+        }
+    }
+    .explore{
+        overflow: hidden;
+        .explore-cont{
+            .boxes{
+                .box{
+                    padding-right: 30px;
                 }
             }
         }
