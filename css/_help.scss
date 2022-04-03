@@ -1,6 +1,7 @@
 .help{
     @include cont;
     padding-top: 140px;
+    padding-bottom: 130px;
     .help-cont{
         .help-head{
             h3{
@@ -43,7 +44,8 @@
                         opacity: 64%;
                         line-height: 32px;
                         padding-bottom: 40px;
-                        min-width: 294px;
+                        padding-right: 50px;
+                        min-width: 200px;
                     }
                     a{
                         color: $yavis;
