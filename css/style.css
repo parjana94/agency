@@ -1307,6 +1307,178 @@
   left: 75px;
 }
 
+.team {
+  background-color: #FDF0E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #28293E;
+  padding-top: 140px;
+  padding-bottom: 170px;
+}
+
+.team .team-cont .team-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team .team-cont .team-head .team-txt h3 {
+  color: #EF6D58;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-family: "Epilogue", sans-serif;
+  padding-bottom: 50px;
+}
+
+.team .team-cont .team-head .team-txt h2 {
+  font-size: 2rem;
+  color: white;
+  width: 300px;
+  line-height: 42px;
+}
+
+.team .team-cont .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.team .team-cont .arrows .arrow {
+  padding: 15px;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  border-radius: 50%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  cursor: pointer;
+}
+
+.team .team-cont .profiles {
+  padding-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 25px;
+  overflow-x: hidden;
+}
+
+.team .team-cont .profiles .box {
+  cursor: pointer;
+}
+
+.team .team-cont .profiles .box .img {
+  width: 270px;
+  height: 272px;
+  border: 1px solid #3A3C56;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.team .team-cont .profiles .box .txt {
+  padding-top: 35px;
+  padding-left: 10px;
+}
+
+.team .team-cont .profiles .box .txt h2 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+.team .team-cont .profiles .box .txt h3 {
+  color: rgba(255, 255, 255, 0.69);
+  text-transform: capitalize;
+}
+
+.team .team-cont .dots {
+  padding-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+.team .team-cont .dots .dot {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #4E4F6E;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.team .team-cont .dots .active-dot {
+  background-color: #EF6D58;
+  border-color: #EF6D58;
+}
+
+.team .team-cont .dots .four {
+  display: none;
+}
+
+.team .team-cont .dots .five {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 992px;
@@ -1353,6 +1525,9 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+  }
+  .team .team-cont .dots .four {
+    display: inline;
   }
 }
 
@@ -1596,6 +1771,9 @@
   .features .features-cont .img {
     width: 90%;
   }
+  .team .team-cont .dots .five {
+    display: inline;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1716,6 +1894,9 @@
   }
   .portfolio .portfolio-cont .portfolio-head h2 {
     padding-bottom: 50px;
+  }
+  .team .team-cont .team-head .arrows {
+    display: none;
   }
 }
 

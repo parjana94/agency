@@ -1,0 +1,91 @@
+.team{
+    @include cont;
+    background-color: $headbg;
+    padding-top: 140px;
+    padding-bottom: 170px;
+    .team-cont{
+        .team-head{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            .team-txt{
+                h3{
+                    @include name;
+                }
+                h2{
+                    font-size: 2rem;
+                    color: white;
+                    width: 300px;
+                    line-height: 42px;
+                }
+            }
+        }
+        .arrows{
+            display: flex;
+            gap: 15px;
+            .arrow{
+                padding: 15px;
+                width: 28px;
+                height: 28px;
+                border: 1px solid rgba($color: #ffffff, $alpha: 0.29);
+                border-radius: 50%;
+                color: white;
+                @include flexcenter(row);
+                cursor: pointer;
+            }
+        }
+        .profiles{
+            padding-top: 55px;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 25px;
+            overflow-x: hidden;
+            .box{
+                cursor: pointer;
+                .img{
+                    width: 270px;
+                    height: 272px;
+                    border: 1px solid #3A3C56;
+                    @include flexcenter(column);
+                    justify-content: flex-end;
+                }
+                .txt{
+                    padding-top: 35px;
+                    padding-left: 10px;
+                    h2{
+                        color: white;
+                        text-transform: capitalize;
+                        font-size: 1.2rem;
+                        padding-bottom: 15px;
+                    }
+                    h3{
+                        color: rgba($color: #ffffff, $alpha: 0.69);
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+        .dots{
+            padding-top: 65px;
+            @include flexcenter(row);
+            gap: 20px;
+            .dot{
+                width: 12px;
+                height: 12px;
+                border: 1px solid #4E4F6E;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .active-dot{
+                background-color: $orange;
+                border-color: $orange;
+            }
+            .four{
+                display: none;
+            }
+            .five{
+                display: none;
+            }
+        }
+    }
+}
