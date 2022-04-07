@@ -1,0 +1,101 @@
+.pricing{
+    @include cont;
+    padding-top: 110px;
+    .pricing-cont{
+        .pricing-txt{
+            h3{
+                @include name;
+            }
+            h2{
+                @include headfont;
+                font-size: 2.5rem;
+                width: 300px;
+                line-height: 42px;
+                padding-bottom: 0px;
+            }
+        }
+        .pricing-boxes{
+            display: flex;
+            flex-wrap: wrap;
+            .box{
+                border: 1px solid #F3D1BF;
+                padding: 50px 60px 50px 50px ;
+                flex: 1;
+                .box-txt{
+                    h3{
+                        @include name;
+                        padding-bottom: 45px
+                    }
+                    h2{
+                        @include headfont;
+                        font-size: 2.5rem;
+                        padding-bottom: 25px;
+                    }
+                    p{
+                        width: 320px;
+                        color: $yavis;
+                        opacity: 64%;
+                        line-height: 32px;
+                        padding-bottom: 45px;
+                    }
+                }
+                .plus{
+                    @include flexcenter(row);
+                    justify-content: left;
+                    gap: 15px;
+                    padding-bottom: 40px;
+                    h2{
+                        color: $yavis;
+                        text-transform: capitalize;
+                    }
+                }
+                .minus{
+                    @include flexcenter(row);
+                    justify-content: left;
+                    gap: 15px;
+                    padding-bottom: 40px;
+                    h2{
+                        color: $yavis;
+                        text-transform: capitalize;
+                        opacity: 64%;
+                    }
+                }
+                .contactus{
+                    padding-top: 45px;
+                    a{
+                        color: $yavis;
+                        text-transform: uppercase;
+                        padding: 25px 40px 15px 40px;
+                        background-color: white;
+                        border-radius: 10px;
+                    }
+                }
+            }
+            .consultation{
+                margin-top: 55px;
+            }
+            .popular{
+                margin-top: 20px;
+                background-color: white;
+                .pop{
+                    padding-bottom: 20px;
+                    a{
+                        color: white;
+                        padding: 10px 20px 13px 20px;
+                        background-color: $orange;
+                        border-radius: 30px;
+                    }
+                }
+                .contactus{
+                    a{
+                        background-color: $orange;
+                        color: white;
+                    }
+                }
+            }
+            .design{
+                margin-top: 55px;
+            }
+        }
+    }
+}
