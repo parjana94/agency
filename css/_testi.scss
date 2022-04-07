@@ -1,0 +1,85 @@
+.testi{
+    @include cont;
+    padding-top: 130px;
+    .testi-cont{
+        .testi-txt{
+            @include flexcenter(column);
+            h3{
+                @include name;
+            }
+            h2{
+                @include headfont;
+                font-size: 3rem;
+                width: 330px;
+                text-align: center;
+                line-height: 50px;
+            }
+        }
+        .boxes{
+            padding-top: 65px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat( 12, 75px);
+            .box{
+                padding: 50px 75px 50px 50px;
+                border: 1px solid #F3D1BF;
+                .stars{
+                    display: flex;
+                    gap: 10px;
+                    padding-bottom: 40px;
+                }
+                .txt{
+                    padding-bottom: 50px;
+                    p{
+                        color: $yavis;
+                        opacity: 64%;
+                        line-height: 32px;
+                        max-width: 458px;
+                    }
+                }
+                .prof{
+                    display: flex;
+                    align-items: center;
+                    .name{
+                        padding-left: 25px;
+                        h2{
+                            padding-bottom: 15px;
+                            color: $yavis;
+                            text-transform: capitalize;
+                            font-size: 1.2rem;
+                        }
+                        h3{
+                            color: $yavis;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+            .alan{
+                background-color: white;
+                grid-row: 1/7;
+            }
+            .richardo{
+                border-left: none;
+                grid-row: 1/6;
+            }
+            .graham{
+                grid-row: 7/12;
+            }
+            .maria{
+                grid-row: 6/11;
+            }
+        }
+        .seemore{
+            padding-top: 65px;
+            @include flexcenter(row);
+            a{
+                color: $yavis;
+                text-transform: uppercase;
+                padding: 25px 45px 15px 45px;
+                background-color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1479,6 +1479,173 @@
   display: none;
 }
 
+.testi {
+  background-color: #FDF0E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 130px;
+}
+
+.testi .testi-cont .testi-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.testi .testi-cont .testi-txt h3 {
+  color: #EF6D58;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-family: "Epilogue", sans-serif;
+  padding-bottom: 50px;
+}
+
+.testi .testi-cont .testi-txt h2 {
+  font-size: 3.5rem;
+  letter-spacing: -1.14304px;
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-size: 3rem;
+  width: 330px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.testi .testi-cont .boxes {
+  padding-top: 65px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (75px)[12];
+      grid-template-rows: repeat(12, 75px);
+}
+
+.testi .testi-cont .boxes .box {
+  padding: 50px 75px 50px 50px;
+  border: 1px solid #F3D1BF;
+}
+
+.testi .testi-cont .boxes .box .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.testi .testi-cont .boxes .box .txt {
+  padding-bottom: 50px;
+}
+
+.testi .testi-cont .boxes .box .txt p {
+  color: #391400;
+  opacity: 64%;
+  line-height: 32px;
+  max-width: 458px;
+}
+
+.testi .testi-cont .boxes .box .prof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testi .testi-cont .boxes .box .prof .name {
+  padding-left: 25px;
+}
+
+.testi .testi-cont .boxes .box .prof .name h2 {
+  padding-bottom: 15px;
+  color: #391400;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.testi .testi-cont .boxes .box .prof .name h3 {
+  color: #391400;
+  text-transform: capitalize;
+}
+
+.testi .testi-cont .boxes .alan {
+  background-color: white;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 6;
+  grid-row: 1/7;
+}
+
+.testi .testi-cont .boxes .richardo {
+  border-left: none;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  grid-row: 1/6;
+}
+
+.testi .testi-cont .boxes .graham {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 5;
+  grid-row: 7/12;
+}
+
+.testi .testi-cont .boxes .maria {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 5;
+  grid-row: 6/11;
+}
+
+.testi .testi-cont .seemore {
+  padding-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.testi .testi-cont .seemore a {
+  color: #391400;
+  text-transform: uppercase;
+  padding: 25px 45px 15px 45px;
+  background-color: white;
+  border-radius: 10px;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 992px;
@@ -1649,6 +1816,18 @@
   }
   .contact .contact-cont .txt h2 {
     width: 100%;
+  }
+  .testi .testi-cont .boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testi .testi-cont .boxes .richardo {
+    border-left: 1px solid #F3D1BF;
   }
 }
 
@@ -1897,6 +2076,15 @@
   }
   .team .team-cont .team-head .arrows {
     display: none;
+  }
+  .testi .testi-cont .boxes .box {
+    padding: 30px;
+  }
+  .testi .testi-cont .boxes .box .stars {
+    padding-bottom: 20px;
+  }
+  .testi .testi-cont .boxes .box .txt {
+    padding-bottom: 30px;
   }
 }
 

@@ -190,6 +190,17 @@
             }
         }
     }
+    .testi{
+        .testi-cont{
+            .boxes{
+                display: flex;
+                flex-direction: column;
+                .richardo{
+                    border-left: 1px solid #F3D1BF;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 768px){
     .container{
@@ -441,6 +452,21 @@
             .team-head{
                 .arrows{
                     display: none;
+                }
+            }
+        }
+    }
+    .testi{
+        .testi-cont{
+            .boxes{
+                .box{
+                    padding: 30px;
+                    .stars{
+                        padding-bottom: 20px;
+                    }
+                    .txt{
+                       padding-bottom: 30px;
+                    } 
                 }
             }
         }
