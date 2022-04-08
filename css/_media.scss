@@ -219,6 +219,11 @@
             }
         }
     }
+    .faq{
+        .faq-cont{
+            flex-direction: column;
+        }
+    }
 }
 @media (max-width: 768px){
     .container{
@@ -494,6 +499,43 @@
             .pricing-boxes{
                 .box{
                     padding: 30px 20px;
+                }
+            }
+        }
+    }
+    .faq{
+        .faq-cont{
+            .faq-txt{
+                p{
+                    width: 100%;
+                }
+            }
+            .faq-boxes{
+                .active{
+                    padding-left: 20px;
+                    .box-txt{
+                       .box-head{
+                           h2{
+                               font-size: 1.2rem;
+                               text-align: center;
+                               line-height: 32px;
+                           }
+                       }
+                       p{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .box{
+                .box-txt{
+                    .box-head{
+                        h2{
+                            font-size: 1.2rem;
+                            line-height: 32px;
+                            text-align: center;
+                        }
+                    }
                 }
             }
         }

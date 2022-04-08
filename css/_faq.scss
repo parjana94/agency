@@ -1,0 +1,74 @@
+.faq{
+    @include cont;
+    padding-top: 160px;
+    .faq-cont{
+        display: flex;
+        justify-content: space-between;
+        .faq-txt{
+            h3{
+                @include name;
+            }
+            h2{
+                @include headfont;
+                font-size: 2rem;
+                width: 300px;
+                line-height: 48px;
+            }
+            p{
+                width: 470px;
+                line-height: 32px;
+                opacity: 64%;
+                color: $yavis;
+            }
+            .contactus{
+                padding-top: 35px;
+                a{
+                    text-transform: capitalize;
+                    color: $yavis;
+                }
+            }
+        }
+        .faq-boxes{
+            margin-top: 25px;
+            .active{
+                padding: 50px 65px 45px 50px;
+                background-color: white;
+                border: 1px solid #F3D1BF;
+                .box-head{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-bottom: 40px;
+                }
+                .box-txt{
+                    h2{
+                        font-size: 1.5rem;
+                        color: $yavis;
+                    }
+                    p{
+                        width: 470px;
+                        opacity: 64%;
+                        color: $yavis;
+                        line-height: 32px;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+            .box{
+                padding: 50px 65px 50px 50px;
+                border: 1px solid #F3D1BF;
+                .box-txt{
+                    h2{
+                        font-size: 1.5rem;
+                        color: $yavis;
+                    }
+                }
+                .box-head{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
