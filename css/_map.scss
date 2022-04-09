@@ -1,0 +1,16 @@
+.map{
+    overflow: hidden;
+    background-color: $rose;
+    padding-top: 115px;
+    position: relative;
+    .map-box{
+        @include flexcenter(row);
+    }
+    .submit{
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        background-color:$rose;
+        width: 470px;
+    }
+}

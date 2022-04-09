@@ -1950,6 +1950,170 @@
           justify-content: space-between;
 }
 
+.map {
+  overflow: hidden;
+  background-color: #FDF0E9;
+  padding-top: 115px;
+  position: relative;
+}
+
+.map .map-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.map .submit {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  background-color: #FDF0E9;
+  width: 470px;
+}
+
+.footer {
+  background-color: #FDF0E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 100px;
+}
+
+.footer .footer-cont hr {
+  height: 1px;
+  background-color: #F3D1BF;
+  border: none;
+}
+
+.footer .footer-cont .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+
+.footer .footer-cont .top .agency {
+  font-size: 1.2rem;
+  color: #391400;
+  text-transform: capitalize;
+}
+
+.footer .footer-cont .top .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 245px;
+}
+
+.footer .footer-cont .top .menu h3 {
+  color: #EF6D58;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-family: "Epilogue", sans-serif;
+  padding-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.footer .footer-cont .top .menu .left nav ul, .footer .footer-cont .top .menu .right nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.footer .footer-cont .top .menu .left nav ul li a, .footer .footer-cont .top .menu .right nav ul li a {
+  color: #391400;
+}
+
+.footer .footer-cont .top .soc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.footer .footer-cont .top .soc .soc-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #EF6D58;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.footer .footer-cont .copy {
+  padding-top: 50px;
+  padding-bottom: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-cont .copy h3 {
+  color: #391400;
+}
+
+.footer .footer-cont .copy .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 80px;
+}
+
+.footer .footer-cont .copy .links a {
+  color: #391400;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 992px;
@@ -2409,7 +2573,7 @@
     width: 100%;
   }
   .faq .faq-cont .faq-boxes .active {
-    padding-left: 20px;
+    padding: 50px 30px;
   }
   .faq .faq-cont .faq-boxes .active .box-txt .box-head h2 {
     font-size: 1.2rem;
@@ -2419,7 +2583,10 @@
   .faq .faq-cont .faq-boxes .active .box-txt p {
     width: 100%;
   }
-  .faq .faq-cont .box .box-txt .box-head h2 {
+  .faq .faq-cont .faq-boxes .box {
+    padding: 50px 30px;
+  }
+  .faq .faq-cont .faq-boxes .box .box-txt .box-head h2 {
     font-size: 1.2rem;
     line-height: 32px;
     text-align: center;

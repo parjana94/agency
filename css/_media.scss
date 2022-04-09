@@ -512,7 +512,7 @@
             }
             .faq-boxes{
                 .active{
-                    padding-left: 20px;
+                    padding: 50px 30px;
                     .box-txt{
                        .box-head{
                            h2{
@@ -526,14 +526,15 @@
                         }
                     }
                 }
-            }
-            .box{
-                .box-txt{
-                    .box-head{
-                        h2{
-                            font-size: 1.2rem;
-                            line-height: 32px;
-                            text-align: center;
+                .box{
+                    padding: 50px 30px;
+                    .box-txt{
+                        .box-head{
+                            h2{
+                                font-size: 1.2rem;
+                                line-height: 32px;
+                                text-align: center;
+                            }
                         }
                     }
                 }

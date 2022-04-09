@@ -1,0 +1,75 @@
+.footer{
+    @include cont;
+    padding-top: 100px;
+    .footer-cont{
+        hr{
+           height: 1px;
+           background-color: #F3D1BF;
+           border: none;
+        }
+        .top{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 80px;
+            padding-top: 60px;
+            .agency{
+                font-size: 1.2rem;
+                color: $yavis;
+                text-transform: capitalize;
+            }
+            .menu{
+                display: flex;
+                gap: 245px;
+                h3{
+                    @include name;
+                    padding-bottom: 30px;
+                    
+                }
+                .left, .right{
+                    nav{
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 30px;
+                            li{
+                                a{
+                                    color: $yavis;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .soc{
+                display: flex;
+                gap: 10px;
+                .soc-icon{
+                    width: 48px;
+                    height: 48px;
+                    background-color: $orange;
+                    @include flexcenter(row);
+                    border-radius: 50%;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+        .copy{
+            padding-top: 50px;
+            padding-bottom: 65px;
+            display: flex;
+            justify-content: space-between;
+            h3{
+                color: $yavis;
+            }
+            .links{
+                display: flex;
+                flex-direction: row;
+                gap: 80px;
+                a{
+                    color: $yavis;
+                }
+            }
+        }
+    }
+}
