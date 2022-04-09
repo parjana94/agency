@@ -224,6 +224,15 @@
             flex-direction: column;
         }
     }
+    .footer{
+        .footer-cont{
+            .top{
+                .menu{
+                    gap: 100px;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 768px){
     .container{
@@ -339,6 +348,20 @@
                 .five{
                     display: inline;
                 }
+            }
+        }
+    }
+    .footer{
+        .footer-cont{
+            .top{
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+            }
+            .copy{
+                flex-direction: column;
+                gap: 70px;
+                align-items: center;
             }
         }
     }
