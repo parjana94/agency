@@ -2114,6 +2114,10 @@
   color: #391400;
 }
 
+.container {
+  background-color: #28293E;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 992px;
