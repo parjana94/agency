@@ -1540,9 +1540,9 @@
   padding-top: 65px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: (75px);
+  -ms-grid-rows: (75px)[12];
       grid-template-rows: repeat(12, 75px);
 }
 
