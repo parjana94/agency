@@ -2,7 +2,6 @@
   width: 1170px;
   font-family: "Epilogue", sans-serif;
 }
-
 .header {
   background-color: #28293E;
   display: -webkit-box;
@@ -139,6 +138,12 @@
 .header .modern-studio .links .work a {
   color: white;
   font-family: "Epilogue", sans-serif;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .modern-studio .links .work a:hover {
+  color: #28293E;
 }
 
 .header .modern-studio .links a {
@@ -1796,6 +1801,12 @@
   padding: 25px 40px 15px 40px;
   background-color: white;
   border-radius: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.pricing .pricing-cont .pricing-boxes .box .contactus a:hover {
+  color: #28293E;
 }
 
 .pricing .pricing-cont .pricing-boxes .consultation {

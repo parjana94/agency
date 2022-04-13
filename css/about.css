@@ -1,7 +1,15 @@
 img{
     width: 100%;
 }
-
+a{
+    transition: 0.5s;
+}
+a:hover{
+    color: #EF6D58 !important;
+}
+.border{
+    border-color: #F3D1BF !important;
+}
 .headbg{
     background-color: #28293E;
     font-family: 'Epilogue', sans-serif;
@@ -72,4 +80,10 @@ p{
 }
 .prof-img{
     width: 80px;
+}
+.members{
+    background-color: #FDF0E9;
+}
+.members h4, h5{
+    color: #391400;
 }

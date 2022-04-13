@@ -81,6 +81,10 @@
                 a{
                     color: white;
                     font-family: $font;
+                    transition: 0.5s;
+                    &:hover{
+                        color: $headbg;
+                    }
                 }
             }
             a{
