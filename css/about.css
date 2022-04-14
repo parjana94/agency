@@ -7,9 +7,6 @@ a{
 a:hover{
     color: #EF6D58 !important;
 }
-.border{
-    border-color: #F3D1BF !important;
-}
 .headbg{
     background-color: #28293E;
     font-family: 'Epilogue', sans-serif;
@@ -87,6 +84,34 @@ p{
 .members h4, h5{
     color: #391400;
 }
-.row{
-    gx-0;
+.team{
+    background-color: #28293E;
+}
+.fa-arrow-left-long, .fa-arrow-right-long{
+    cursor: pointer;
+}
+.member-box{
+    border-color: #F3D1BF !important;
+}
+.arrow-team{
+    border-color: rgba(255, 255, 255, 0.29) !important;
+}
+.team-img{
+    height: 272px;
+    border-color: #3A3C56 !important;
+    min-width: 260px !important;
+}
+.team-img img{
+    width: auto;
+}
+.box{
+    min-width: 260px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+}
+.active{
+    background-color: #EF6D58;
+    border-color: #EF6D58 !important;
 }
