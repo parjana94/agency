@@ -200,8 +200,14 @@ p{
 .closed-box{
     border-color: #3A3C56 !important;
 }
-
-@media (max-width: 576px){
+.companys-box img{
+    width: auto;
+    cursor: pointer;
+}
+.companys{
+    background-color: #28293E;
+}
+@media (max-width: 770px){
     .main{
         min-width: 375px !important;
         max-width: 375px !important;
