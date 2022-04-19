@@ -177,6 +177,7 @@ p{
 }
 .faq{
     background-color: #28293E;
+    padding-bottom: 200px !important;
 }
 .faq-p{
     opacity: 64%;
@@ -213,6 +214,12 @@ p{
 }
 .help-box{
     background-color: #EF6D58;
+    top: -300px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.help-img{
+    width: 100%;
 }
 .help-txt p{
     opacity: 64%;
@@ -225,7 +232,7 @@ p{
 .footer{
     background-color: #FDF0E9;
     color: #391400;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 .foot-link{
     color: #391400;
@@ -240,10 +247,26 @@ p{
 li{
     list-style: none;
 }
+.copy-txt{
+    opacity: 64%;
+}
+.terms a, .privacy a{
+    color: #391400;
+}
+
+
 @media (max-width: 770px){
     .main{
         min-width: 375px !important;
         max-width: 375px !important;
         height: auto;
+    }
+}
+@media (max-width: 576px){
+    .footer{
+        padding-top: 550px;
+    }
+    .menu{
+        gap: 35px;
     }
 }
