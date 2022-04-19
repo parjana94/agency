@@ -207,6 +207,39 @@ p{
 .companys{
     background-color: #28293E;
 }
+.help{
+    background-color: #28293E;
+  
+}
+.help-box{
+    background-color: #EF6D58;
+}
+.help-txt p{
+    opacity: 64%;
+}
+.help-txt a{
+    color: #391400;
+    background-color: white;
+}
+
+.footer{
+    background-color: #FDF0E9;
+    color: #391400;
+    padding-top: 250px;
+}
+.foot-link{
+    color: #391400;
+}
+.soc-icon{
+    width: 48px;
+    height: 48px;
+    background-color: #EF6D58;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
 @media (max-width: 770px){
     .main{
         min-width: 375px !important;
