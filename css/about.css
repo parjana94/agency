@@ -106,12 +106,105 @@ p{
 }
 .box{
     min-width: 260px;
+    cursor: pointer;
 }
 .dot{
     width: 10px;
     height: 10px;
+    cursor: pointer;
 }
 .active{
     background-color: #EF6D58;
     border-color: #EF6D58 !important;
+}
+.testi{
+    background-color: #28293E ;
+}
+.star img{
+    width: auto;
+}
+.clients-txt p{
+    color: #391400;
+    opacity: 64%;
+}
+.clients-prof-img img{
+    width: auto;
+}
+.clients-prof-txt h4{
+    font-size: 1rem !important;
+    color: #391400;
+}
+.clients-prof-txt h5{
+    font-size: 0.9rem !important;
+    color: #391400;
+}
+.clients-txt p{
+    font-size: 0.8rem;
+}
+.main{
+    background-color: white;
+    height: 400px;
+    min-width: 770px !important;
+    max-width: 770px !important;
+    cursor: pointer;
+}
+.first{
+    background-color: white;
+    height: 336px;
+    width: 700px;
+    overflow: hidden;
+    opacity: 24%;
+    min-width: 770px !important;
+    max-width: 770px !important;
+    cursor: pointer;
+}
+.sec{
+    background-color: white;
+    height: 336px;
+    width: 700px;
+    overflow: hidden;
+    opacity: 24%;
+    min-width: 770px !important;
+    max-width: 770px !important;
+    cursor: pointer;
+}
+.main-txt p{
+    color: #391400;
+    opacity: 64%;
+}
+.prof-txt h4, h5{
+    color: #391400;
+}
+.faq{
+    background-color: #28293E;
+}
+.faq-p{
+    opacity: 64%;
+}
+
+.faq-cont{
+    max-width: 770px;
+}
+
+.box-img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.open-box{
+    background-color: white;
+}
+.box-head h2{
+    color: #391400;
+}
+.closed-box{
+    border-color: #3A3C56 !important;
+}
+
+@media (max-width: 576px){
+    .main{
+        min-width: 375px !important;
+        max-width: 375px !important;
+        height: auto;
+    }
 }
